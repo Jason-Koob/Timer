@@ -1,5 +1,5 @@
 # Timer
-A basic timer.
+A basic timer because my alarm clock can't do subtraction.
 # How It Works
 This script uses both the current time and a user input time and compares the two and prints out the results. Both times are formatted to use a %Y-%m-%d %H:%M:%S format. Each second the time updates by getting the current time again and comparing that new time with the 'expected' time to print out the difference. 
 
