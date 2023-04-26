@@ -15,6 +15,7 @@ formatted_current_time = current_time.strftime('%Y-%m-%d %H:%M:%S')
 
 print(color.GREEN + 'The current time is: ' + str(formatted_current_time) + '\nWhat is the expected time?: \nUse %Y-%m-%d %H:%M:%S format.\n')
 expected_time_string = input()
+
 while True:
     # Get the current time
     current_time = datetime.datetime.now()
