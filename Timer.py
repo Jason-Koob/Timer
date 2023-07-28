@@ -33,7 +33,7 @@ while True:
 
     difference_time = math_expected_time - math_current_time
     formatted_difference_time = difference_time
-    
+
     # Tell user the difference
     print(difference_time)
     time.sleep(1)
